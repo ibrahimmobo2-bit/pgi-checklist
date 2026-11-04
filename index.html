@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>PGI Maintenance Checklist</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #fff; }
+    iframe { display: block; border: 0; width: 100%; height: 100%; }
+    .fallback {
+      position: fixed; bottom: 8px; right: 8px;
+      font: 12px system-ui, sans-serif;
+      background: rgba(255,255,255,.9); padding: 4px 8px; border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <iframe
+    src="https://script.google.com/macros/s/AKfycbypeps3VttQloZ4bbd7SMP4Mfvk5PNrpwpcsPeLoIJdbR8l0iCWtPbNm_MbMdzPsWRYvA/exec"
+    allow="camera; geolocation; clipboard-write"
+    title="PGI Maintenance Checklist"></iframe>
+  <a class="fallback" target="_blank" rel="noopener"
+     href="https://script.google.com/macros/s/AKfycbypeps3VttQloZ4bbd7SMP4Mfvk5PNrpwpcsPeLoIJdbR8l0iCWtPbNm_MbMdzPsWRYvA/exec">Not loading? Open directly</a>
+  <script>
+    // Pass ?p=TNF&f=Flat%207 through to the web app so preset links still work
+    if (location.search) {
+      var f = document.querySelector('iframe'), a = document.querySelector('.fallback');
+      f.src += location.search; a.href += location.search;
+    }
+  </script>
+</body>
+</html>
